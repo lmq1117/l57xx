@@ -25,6 +25,16 @@ class TestController extends Controller
         //
         //Debugbar::info($name . date('Y-m-d H:i:s') . '访问了页面！');
         //return view('welcome', compact('name'));
+        $c = app();
+        //var_dump($c->bindings);
+        echo '<pre>';
+        $k = [];
+        foreach($c->bindings as $key => $value)
+        {
+            print_r($value);
+        }
+
+        echo '</pre>';
 
     }
 }
