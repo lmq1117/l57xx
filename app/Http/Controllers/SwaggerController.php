@@ -29,6 +29,7 @@ class SwaggerController extends Controller
      *         )
      *     ),
      *     @OA\Parameter(name="user_id",in="query",description="用户ID",required=true,@OA\Schema(type="integer")),
+     *     @OA\Parameter(name="user_name",description="用户名",required=true,@OA\Schema(type="string")),
      *     @OA\Response(
      *         response=200,
      *         description="操作成功返回"
