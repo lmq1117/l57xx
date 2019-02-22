@@ -18,5 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('hello','SwaggerController@hello');
-Route::post('show','SwaggerController@show');
+
