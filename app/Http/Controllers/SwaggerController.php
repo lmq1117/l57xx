@@ -16,7 +16,7 @@ class SwaggerController extends Controller
      *     path="/show",
      *     tags={"XXAPI"},
      *     summary="获取时间接口",
-     *     description="获取时间接口",
+     *     description="获取时间接口1",
      *     operationId="TimeShow",
      *     deprecated=false,
      *     @OA\Parameter(
@@ -48,7 +48,7 @@ class SwaggerController extends Controller
      *     path="/hello",
      *     tags={"XXAPI"},
      *     summary="说你好接口",
-     *     description="说你好接口",
+     *     description="说你好接口1",
      *     operationId="SayHello",
      *     deprecated=false,
      *     @OA\Parameter(
